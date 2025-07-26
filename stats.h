@@ -53,3 +53,18 @@ void print_array(unsigned char test[],unsigned int counter);
  *
  * @return void
  */
+
+
+ unsigned char find_min(unsigned char test[],unsigned int counter);
+ /**
+ * @brief Finds the minimum value in the dataset
+ *
+ * This function iterates through the given array and determines the smallest 
+ * element by comparing each item with the current minimum. It returns the 
+ * minimum value found in the dataset.
+ * 
+ * @param test Pointer to the array of unsigned char values
+ * @param counter The total number of elements in the array
+ *
+ * @return The smallest value (minimum) in the array
+ */

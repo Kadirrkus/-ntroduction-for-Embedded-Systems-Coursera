@@ -78,3 +78,19 @@ void print_array(unsigned char test[],unsigned int counter){
 	printf("\n"); //Before sorting 
 	
 }
+
+unsigned char find_min(unsigned char test[],unsigned int counter){
+   unsigned char min=test[0];
+	for(int i=0;i<counter;i++){
+		
+	 if(test[i]<min){
+	 	
+	 	min=test[i];
+	 
+	 }
+	 	
+	}	
+	//printf("Test min= %u\n",min);
+	
+	return min;
+}
