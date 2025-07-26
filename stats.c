@@ -157,3 +157,41 @@ unsigned char find_median(unsigned char test[],unsigned int counter){
 		
 	}
 
+
+
+void sort_array(unsigned char test[],unsigned int counter)	{
+	
+	
+	 char temp;
+	for(int i=0;i<counter-1;i++){
+		for(int j=0;j<counter-i-1;j++){
+			
+			if(test[j]<test[j+1]){
+				
+				temp=test[j];
+			    test[j]=test[j+1];
+			    test[j+1]=temp;
+				
+			}
+			
+		}
+		
+	}
+	int row=6;
+	int column=counter/row+(counter %row !=0);
+	int index=0;
+	
+	for(int i=0;i<row;i++){
+		for(int j=0;j<column;j++){
+			printf("%u\t",test[index]);
+			index++; //After Sorting
+			
+			
+		}
+	
+		
+		
+	}
+	
+}
+

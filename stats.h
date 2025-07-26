@@ -115,3 +115,24 @@ unsigned char find_median(unsigned char test[],unsigned int counter);
  *
  * @return Median value
  */
+
+
+
+
+void sort_array(unsigned char test[],unsigned int counter);
+
+/**
+ * @brief Sorts and prints the dataset
+ *
+ * Sorts the array in descending order using bubble sort. Then prints 
+ * the sorted values in a 2D table format with 6 rows.
+ *
+ * @param test Pointer to the array
+ * @param counter Number of elements in the array
+ *
+ * @return void
+ 
+ */
+#endif /* __STATS_H__ */
+ 
+ 
