@@ -37,3 +37,19 @@
  * @return void
  */
 
+void print_array(unsigned char test[],unsigned int counter);
+ 
+ 
+/**
+ * @brief Prints the elements of the dataset to the console
+ *
+ * This function iterates over the given array and prints each element 
+ * in an unsigned decimal format, separated by commas. It is useful 
+ * for visually inspecting the contents of the dataset before or after 
+ * statistical operations.
+ * 
+ * @param test Pointer to the array of unsigned char values
+ * @param counter The total number of elements in the array
+ *
+ * @return void
+ */

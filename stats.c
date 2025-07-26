@@ -66,3 +66,15 @@ void print_statistics(unsigned char min,unsigned char max,int mean,unsigned char
 	printf("median=%u\n",median);
 	
 }
+
+
+
+void print_array(unsigned char test[],unsigned int counter){
+	
+	for(int i=0;i<counter;i++){
+		printf("%u,",test[i]);
+		
+	}
+	printf("\n"); //Before sorting 
+	
+}
