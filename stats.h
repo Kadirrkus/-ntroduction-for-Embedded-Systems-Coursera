@@ -100,3 +100,18 @@ unsigned char find_max(unsigned char test[],unsigned int counter);
  *
  * @return The average value of the dataset as an integer
  */
+
+
+unsigned char find_median(unsigned char test[],unsigned int counter);
+ 
+ /**
+ * @brief Returns the median value of the array
+ *
+ * Sorts the array in ascending order and returns the middle value. 
+ * For even sizes, returns the average of the two central values.
+ *
+ * @param test Pointer to the array
+ * @param counter Number of elements in the array
+ *
+ * @return Median value
+ */

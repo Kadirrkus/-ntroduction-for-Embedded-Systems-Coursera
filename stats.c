@@ -130,3 +130,30 @@ int find_mean(unsigned char test[],unsigned int counter){
 	return mean;
 }
 
+
+
+
+unsigned char find_median(unsigned char test[],unsigned int counter){
+	
+     char temp;
+	for(int i=0;i<counter-1;i++){
+		for(int j=0;j<counter-i-1;j++){
+			
+			if(test[j]>test[j+1]){
+				
+				temp=test[j];
+			    test[j]=test[j+1];
+			    test[j+1]=temp;
+				
+			}
+			
+		}
+		
+	}
+	if (counter % 2 == 0)
+        return (test[counter / 2 - 1] + test[counter / 2]) / 2;
+    else
+        return test[counter / 2];
+		
+	}
+
