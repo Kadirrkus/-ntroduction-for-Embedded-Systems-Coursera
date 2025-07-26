@@ -113,3 +113,20 @@ unsigned char find_max(unsigned char test[],unsigned int counter){
 	//printf("test max= %u",max);
 		
 		return max;
+}
+
+int find_mean(unsigned char test[],unsigned int counter){
+	 
+	   int sum=0;  
+       for(int i=0;i<counter;i++){
+       	
+       	sum +=test[i]; //sum of  test[] list
+       	
+	   }	
+	
+	
+	int mean=sum/counter;  //Here we calculating mean and if we make it int type remainder will drop and round process done.
+	
+	return mean;
+}
+

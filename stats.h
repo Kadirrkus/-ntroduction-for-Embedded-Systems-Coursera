@@ -84,3 +84,19 @@ unsigned char find_max(unsigned char test[],unsigned int counter);
  *
  * @return The largest value (maximum) in the array
  */
+
+
+ int find_mean(unsigned char test[],unsigned int counter);
+  
+  /**
+ * @brief Calculates the mean (average) value of the dataset
+ *
+ * This function computes the mean by summing all the elements 
+ * in the given array and dividing the total by the number of elements. 
+ * Since the result is returned as an integer, any fractional part will be truncated.
+ * 
+ * @param test Pointer to the array of unsigned char values
+ * @param counter The total number of elements in the array
+ *
+ * @return The average value of the dataset as an integer
+ */
