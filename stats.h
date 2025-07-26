@@ -68,3 +68,19 @@ void print_array(unsigned char test[],unsigned int counter);
  *
  * @return The smallest value (minimum) in the array
  */
+
+
+unsigned char find_max(unsigned char test[],unsigned int counter);
+ 
+ /**
+ * @brief Finds the maximum value in the dataset
+ *
+ * This function scans through the given array of unsigned char values
+ * and identifies the largest element by comparing each entry with the 
+ * current maximum. It returns the highest value found in the array.
+ * 
+ * @param test Pointer to the array containing dataset values
+ * @param counter The number of elements in the array
+ *
+ * @return The largest value (maximum) in the array
+ */

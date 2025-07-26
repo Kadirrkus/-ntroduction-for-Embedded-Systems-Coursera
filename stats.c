@@ -94,3 +94,22 @@ unsigned char find_min(unsigned char test[],unsigned int counter){
 	
 	return min;
 }
+
+
+unsigned char find_max(unsigned char test[],unsigned int counter){
+	
+	unsigned char max=test[0];
+	
+	for(int i=0;i<counter;i++){
+		
+		if(test[i]>max){
+			
+			max=test[i];
+			
+		}
+		
+	}
+			
+	//printf("test max= %u",max);
+		
+		return max;
