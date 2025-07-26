@@ -19,3 +19,21 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
+
+
+  void print_statistics(unsigned char minimum,unsigned char max,int mean,unsigned char median) ;
+/**
+ * @brief Prints the statistics of a given array
+ *
+ * This function takes the resulting statistics done on an array
+ * which are: minimum, maximum, mean and median, and print those
+ * values on the screen
+ *
+ * @param min The minimum number of given array
+   @param max The maximum number of given array 
+ * @param mean The mean of the given array
+ * @param median The median of the given array
+ *
+ * @return void
+ */
+

@@ -55,3 +55,14 @@ int main(void) {
     print_statistics(min,max,mean,median);
     sort_array(test,SIZE);  
 }
+
+
+
+void print_statistics(unsigned char min,unsigned char max,int mean,unsigned char median){
+	
+	printf("minimum=%u\n",min);
+	printf("maximum=%u\n",max);
+	printf("mean=%d\n",mean);
+	printf("median=%u\n",median);
+	
+}
